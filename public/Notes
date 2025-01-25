@@ -1,0 +1,56 @@
+WHAT IS REACT?
+
+React is a free and open-source javascript
+library specifically designed for building
+user interfces.
+
+-> Developed by facebook in 2011:
+
+React is the most popular, powerful front-end
+library developed and sponsored by 
+facebool
+
+-> Use components model:
+
+Component is a peace of the ui that has it's
+own logic and appearance. A component can
+be small as a a button or large as entire page.
+
+-> Build moduler apps
+
+-> Learn once, write anywhere:
+
+can build mobile (ract native) and dekstop applications (react dekstop), and also vertual reality (react 360 ).
+
+
+WHAT ARE COMPONENTS?
+
+Components are independent and reusable bits of code. They serve the same purpose as js functions, but work in isolation and return html or jsx to be precise.
+
+
+WHAT IS JSX?
+
+JSX allows us to write HTML in react. JSX makes it easier to write and add HTML in react.
+
+RULES:
+
+-> JSX must return a single parent element.
+
+-> JSX must be properly closed.
+
+-> JSX attribules are written in camelCase (eg. className instead of class).
+
+
+EXPRESSION IN JSX
+
+With JSX you can write expresion inside curly 
+braces. The expressions can be a React variable or 
+property or any other valid JavaScript expression. 
+JSX will execute the expression and return the result.
+
+
+LISTS
+
+In react, you will render lists with some type 
+of loop. The javascript map() array method
+is generally the preferred method.
