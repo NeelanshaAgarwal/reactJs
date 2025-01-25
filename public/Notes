@@ -54,3 +54,16 @@ LISTS
 In react, you will render lists with some type 
 of loop. The javascript map() array method
 is generally the preferred method.
+
+
+PROPS
+
+-> Properties are arguments passed
+into React components.
+
+-> Properties allows us to pass data
+from parent component to a child 
+component.
+
+-> Properties are passed to components
+via HTML attributes.

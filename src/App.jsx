@@ -7,6 +7,10 @@ import WelcomeMessage from './jsx/WelcomeMessage'
 import JSXRules from './jsx/JSXRules'
 import Greet from './jsx/Greet'
 import ProductInfo from './jsx/ProductInfo'
+import UserList from './lists/UserList'
+import ProductList from './lists/ProductList'
+import Human from './props/Human'
+import Prodct from './props/Prodct'
 
 const App = () => {
   return (
@@ -19,6 +23,10 @@ const App = () => {
       <JSXRules />
       <Greet />
       <ProductInfo />
+      <UserList />
+      <ProductList />
+      <Human name="Neelansha" age={21}/>
+      <Prodct name="Iphone" price={80000}/>
     </div>
   )
 }
