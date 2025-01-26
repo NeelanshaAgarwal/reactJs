@@ -75,3 +75,26 @@ Conditional rendering allows us to dynamically display
 diferent UI components or content based on specific conditions. This
 enables us to create more interactivr and responsive user
 experiences.
+
+
+STATE
+
+State is way to store and manage data that can change over
+time and affects how the component renders. We define state 
+using a useState hook, which allows you to set an initial 
+value and provides a way to update that state.
+
+
+HOOKS
+
+Hooks are a new addition in react 16.8
+They let you use state and other react features
+without writing a class.
+
+
+useState() HOOK
+
+useState hook allows us to track state in a 
+functional component. State generally refers
+to data or properties that need to be
+traking in an application.
