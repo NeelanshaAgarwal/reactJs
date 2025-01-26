@@ -67,3 +67,11 @@ component.
 
 -> Properties are passed to components
 via HTML attributes.
+
+
+CONDITIONAL RENDERING
+
+Conditional rendering allows us to dynamically display
+diferent UI components or content based on specific conditions. This
+enables us to create more interactivr and responsive user
+experiences.

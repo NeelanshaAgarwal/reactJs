@@ -11,6 +11,9 @@ import UserList from './lists/UserList'
 import ProductList from './lists/ProductList'
 import Human from './props/Human'
 import Prodct from './props/Prodct'
+import Weather from './conditional rendering/Weather'
+import UserStatus from './conditional rendering/UserStatus'
+import Greetin from './conditional rendering/Greetin'
 
 const App = () => {
   return (
@@ -27,6 +30,9 @@ const App = () => {
       <ProductList />
       <Human name="Neelansha" age={21}/>
       <Prodct name="Iphone" price={80000}/>
+      <Weather />
+      <UserStatus loggedIn = {true} isAdmin = {false}/>
+      <Greetin timeOfDay = "morning" />
     </div>
   )
 }
