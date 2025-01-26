@@ -14,10 +14,13 @@ import Prodct from './props/Prodct'
 import Weather from './conditional rendering/Weather'
 import UserStatus from './conditional rendering/UserStatus'
 import Greetin from './conditional rendering/Greetin'
+import StyleCard from './style/StyleCard'
+import ProfileCard from './style/ProfileCard'
+import IconComponent from './style/IconComponent'
 
 const App = () => {
   return (
-    <div>
+    <section>
       <Greeting />
       <Header />
       <Main />
@@ -33,7 +36,10 @@ const App = () => {
       <Weather />
       <UserStatus loggedIn = {true} isAdmin = {false}/>
       <Greetin timeOfDay = "morning" />
-    </div>
+      <StyleCard />
+      <ProfileCard />
+      <IconComponent />
+    </section>
   )
 }
 
