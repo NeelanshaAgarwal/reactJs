@@ -98,3 +98,31 @@ useState hook allows us to track state in a
 functional component. State generally refers
 to data or properties that need to be
 traking in an application.
+
+
+WHAT IS REACT PORTAL?
+
+Portal is a feature that allows you to render a child 
+component into a DOM node that exists outside the 
+hierarchy of the parent component. This can be usefull for 
+scenerios like modals, tooltips or dropdown where you 
+want to break out of the usual parent child structure and 
+render in a different part of DOM.
+
+
+useEffect() HOOK
+
+useEffect hook allows you to perform side effects in 
+your components. Some example of side effects 
+are: fetching data, directly updating the DOM etc.
+
+We setup useEffect hook to run some coee when
+
+-> component renders for the first time
+
+-> whenever it rerenders
+
+-> some data in our component changed.
+
+
+ 

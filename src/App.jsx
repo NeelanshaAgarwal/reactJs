@@ -21,6 +21,9 @@ import Counter from './useState/Counter'
 import Profile from './useState/Profile'
 import ToDoList from './useState/ToDoList'
 import ShoppingList from './useState/ShoppingList'
+import BasicEffect from './useEffect/BasicEffect'
+import CounterEffect from './useEffect/CounterEffect'
+import FetchDataEffect from './useEffect/FetchDataEffect'
 
 const App = () => {
   return (
@@ -47,6 +50,9 @@ const App = () => {
       <Profile />
       <ToDoList />
       <ShoppingList />
+      <BasicEffect />
+      <CounterEffect />
+      <FetchDataEffect />
     </section>
   )
 }
