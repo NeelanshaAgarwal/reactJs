@@ -28,6 +28,8 @@ import {UserProvider} from './useContext/UserContext'
 import UserProfile from './useContext/UserProfile'
 import UpdateUser from './useContext/UpdateUser'
 import Counterr from './useReducer/Counterr'
+import FocusInput from './useRef/FocusInput'
+import Timer from './useRef/Timer'
 
 const App = () => {
   return (
@@ -62,6 +64,8 @@ const App = () => {
         <UpdateUser />
       </UserProvider>
       <Counterr />
+      <FocusInput />
+      <Timer />
     </section>
   )
 }

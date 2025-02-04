@@ -151,3 +151,10 @@ We setup useEffect hook to run some coee when
  or state transitions that involves multiple sub-
  values. It allows you to manage state in a 
  functional, Immutable way.
+
+
+ useRef() HOOK
+
+ useRef hook provides a way to acess and 
+ interact with DOM elements or to persist values
+ across renders without cousing a re-render.
