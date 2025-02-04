@@ -125,4 +125,20 @@ We setup useEffect hook to run some coee when
 -> some data in our component changed.
 
 
- 
+ CONTEXT API
+
+ Context api is a feature that allows you to manage and 
+ share state across your componet tree withount having to 
+ pass props down manually at every level. It's usefull for 
+ scenarios where you need to share data or functions 
+ across many components, espacially when these 
+ components are deeply nested.
+
+
+ useContext() HOOK
+
+ useContext hook allows us to access the context values
+ provided by a context object directly within a functional
+ component. Context provides a way to pass data through
+ the component tree without having to pass props down
+ manually at every level.

@@ -24,6 +24,9 @@ import ShoppingList from './useState/ShoppingList'
 import BasicEffect from './useEffect/BasicEffect'
 import CounterEffect from './useEffect/CounterEffect'
 import FetchDataEffect from './useEffect/FetchDataEffect'
+import {UserProvider} from './useContext/UserContext'
+import UserProfile from './useContext/UserProfile'
+import UpdateUser from './useContext/UpdateUser'
 
 const App = () => {
   return (
@@ -53,6 +56,10 @@ const App = () => {
       <BasicEffect />
       <CounterEffect />
       <FetchDataEffect />
+      <UserProvider>
+        <UserProfile />
+        <UpdateUser />
+      </UserProvider>
     </section>
   )
 }
