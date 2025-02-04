@@ -27,6 +27,7 @@ import FetchDataEffect from './useEffect/FetchDataEffect'
 import {UserProvider} from './useContext/UserContext'
 import UserProfile from './useContext/UserProfile'
 import UpdateUser from './useContext/UpdateUser'
+import Counterr from './useReducer/Counterr'
 
 const App = () => {
   return (
@@ -60,6 +61,7 @@ const App = () => {
         <UserProfile />
         <UpdateUser />
       </UserProvider>
+      <Counterr />
     </section>
   )
 }

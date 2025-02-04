@@ -142,3 +142,12 @@ We setup useEffect hook to run some coee when
  component. Context provides a way to pass data through
  the component tree without having to pass props down
  manually at every level.
+
+
+ useReducer() HOOK
+
+ useReducer is a hook that is similar to useState, 
+ but it is designed for more complex state objects 
+ or state transitions that involves multiple sub-
+ values. It allows you to manage state in a 
+ functional, Immutable way.
