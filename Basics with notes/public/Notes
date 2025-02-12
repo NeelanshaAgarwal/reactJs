@@ -158,3 +158,18 @@ We setup useEffect hook to run some coee when
  useRef hook provides a way to acess and 
  interact with DOM elements or to persist values
  across renders without cousing a re-render.
+
+
+ CUSTOM HOOKS
+
+ Custom hooks are javascript functions that start with the 
+ prefix use(eg. useFetch(), useForm()) and can call other 
+ hooks within them. They allow you to extract and reuse 
+ logic that involves state or side effects, making your 
+ components more readabe and maintainable.
+
+
+ useId HOOK
+
+ useId Hook in react is used to generate
+ unique IDs for components.
